@@ -20,18 +20,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+.bg-black {
+  background-color: black;
+}
 
 body, html {
   height: 100%;
-  background-color: black;
-  color: white;
   font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 nav {
   display: flex;
   justify-content: center;
   padding: 20px 0;
+  z-index: 100;
 }
 
 nav ul {
@@ -44,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: rgb(143, 143, 143);
   text-decoration: none;
   font-size: 18px;
 }
@@ -54,6 +57,11 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   height: 90vh;
+  z-index: -1;
+  background-image: url('logo.GIF');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .logo img {
