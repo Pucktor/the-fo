@@ -15,6 +15,14 @@
  */
 
  /* Basic reset for styling */
+
+@font-face {
+  font-family: 'Menlo';
+  src: url('Menlo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +30,10 @@
 }
 .bg-black {
   background-color: black;
+}
+
+body {
+  font-family: 'Menlo', sans-serif;
 }
 
 body, html {
