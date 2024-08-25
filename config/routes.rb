@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get 'music', to: 'pages#music'
   get 'thefos', to: 'pages#thefos'
   get 'logo', to: 'pages#logo'
+  get 'menu', to: 'pages#menu'
 end

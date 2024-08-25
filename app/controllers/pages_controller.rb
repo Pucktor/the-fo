@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def logo
   end
+
+  def menu
+  end
 end
