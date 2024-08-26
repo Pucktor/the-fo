@@ -1,9 +1,3 @@
-<script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.3/build/spline-viewer.js"></script>
-<div style="position: relative; width: 100%; height: 100vh;">
-  <spline-viewer url="https://prod.spline.design/QeKafq1dtccq1iUp/scene.splinecode" style="width: 100%; height: 100%;"></spline-viewer>
-  <div style="position: absolute; top: 10px; left: 10px; z-index: 1000;">
-    <audio id="background-audio" autoplay>
-      <source src="<%= asset_path 'old_new_times.mp3' %>" type="audio/mpeg">
-    </audio>
-  </div>
-</div>
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.20/build/spline-viewer.js"></script>
+<spline-viewer class="desktop-view" url="https://prod.spline.design/QeKafq1dtccq1iUp/scene.splinecode"></spline-viewer>
+<spline-viewer class="mobile-view" url="https://prod.spline.design/AOZ552-UkRR9gIzx/scene.splinecode"></spline-viewer>

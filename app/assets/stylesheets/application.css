@@ -90,3 +90,15 @@ nav ul li a {
       font-size: 16px;
   }
 }
+
+.mobile-view {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view {
+    display: block;
+  }
+}
